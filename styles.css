@@ -185,4 +185,66 @@ footer {
 footer p {
     margin: 5px 0;
 }
+@media (max-width: 1200px) {
+    .firstsection {
+        flex-direction: column;
+        align-items: center;
+    }
+    .firstsection > div {
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .leftsection {
+        font-size: 2rem;
+    }
+    .rightsection img {
+        width: 100%;
+    }
+    .box {
+        font-size: 1rem;
+        padding: 4px 8px;
+    }
+    .look {
+        font-size: 1rem;
+    }
+    .about-section, .skills-section, .projects-section {
+        margin: 20px 10px;
+        padding: 20px;
+    }
+    .skills-box, .projects-box {
+        flex-direction: column;
+    }
+    .skill, .project {
+        flex: 1 1 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    nav ul li {
+        margin: 5px 0;
+    }
+    .left {
+        margin-left: 0;
+        font-size: 1.5rem;
+    }
+    .intro-contact {
+        font-size: 18px;
+        padding: 30px 30px;
+    }
+    footer {
+        font-size: 0.9rem;
+        padding: 8px 0;
+    }
+}
+
 
